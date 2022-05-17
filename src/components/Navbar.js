@@ -25,7 +25,7 @@ const Navbar = () => {
     window.addEventListener("resize", showButton);
 
     return (
-        <div>
+        <>
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link
@@ -81,7 +81,7 @@ const Navbar = () => {
                     )}
                 </div>
             </nav>
-        </div>
+        </>
     );
 };
 export default Navbar;

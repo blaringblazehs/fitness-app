@@ -118,6 +118,7 @@
     }
 
     .navbar-logo {
+        margin-top: -26px;
         position: absolute;
         top: 0;
         left: 0;
@@ -125,7 +126,10 @@
     }
 
     .menu-icon {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -9px;
         position: absolute;
         top: 0;
         right: 0;
